@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Pagina</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="grid">
+    <header>
+        <h1>Contact</h1>
+    </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a class="nav-menu" href="index.html">Home</a></li>
+            <li><a class="nav-menu" href="about.html">Wat is het verschil?</a> </li>
+            <li><a class="nav-menu" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <hr>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="name"></label>
+            </p>
+            <p>
+                <label>E-mail Adres:<input type="text" name="email"></label>
+            </p>
+            <p>
+                <label>Uw bericht:<textarea name="message"></textarea></label>
+            </p>
+
+
+            <button type="submit">Verzenden</button>
+            <button type="reset">Opnieuw instellen</button>
+        </form>
+    </main>
+
+    <aside>
+        <img class="img-contact" src="./Images/Ukelele Snaren.jpg">
+        <p>Voor meer informatie over gitaren:</p>
+        <a class="info-links" href="https://nl.wikipedia.org/wiki/Gitaar" target="_blank">Wikipedia - Gitaar</a>
+        <p>Voor meer informatie over ukelele's:</p>
+        <a class="info-links" href="https://nl.wikipedia.org/wiki/Ukelele" target="_blank">Wikipedia -
+            Ukelele</a>
+    </aside>
+
+    <footer>
+        <p class="footer-text">Voor vragen of opmerkingen kunt u contact opnemen via het contactformulier:</p>
+        <a class="contact-footer" href="contact.html">Naar het contactformulier</a>
+        <p class="footer-text">Rianne Bultena</p>
+    </footer>
+</body>
+
+</html>
